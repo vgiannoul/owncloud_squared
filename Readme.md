@@ -1,6 +1,8 @@
 OwnCloud Squared owncloud theme
 ==========================
 
+![](screenshot.png?raw=true)
+
 This is a simple yet clean owncloud theme created by [2square](https://2square.gr/).
 
 Usage
