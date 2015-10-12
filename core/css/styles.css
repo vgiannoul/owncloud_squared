@@ -83,7 +83,7 @@ input[type="button"],
 	font-size: 13px;
 	background-color: #fff;
 	color: #333;
-	border: 1px solid #ddd;
+	border: none;
 	outline: none;
 	border-radius: 0;
 }
@@ -123,7 +123,7 @@ input[type="url"]:hover, input[type="url"]:focus, input[type="url"]:active,
 input[type="time"]:hover, input[type="time"]:focus, input[type="time"]:active,
 textarea:hover, textarea:focus, textarea:active {
 	color: #333;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter:alpha(opacity=100); opacity:1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; filter:alpha(opacity=80); opacity:0.8;
 }
 input[type="checkbox"] { margin:0; padding:0; height:auto; width:auto; }
 input[type="checkbox"]:hover+label, input[type="checkbox"]:focus+label { color:#111 !important; }
@@ -178,7 +178,7 @@ button, .button,
 	background-color: rgba(240,240,240,.9);
 	font-weight: bold;
 	color: #555;
-	border: 1px solid rgba(190,190,190,.9);
+	border: none;
 	cursor: pointer;
 }
 input[type="submit"]:hover, input[type="submit"]:focus,
@@ -187,7 +187,7 @@ button:hover, button:focus,
 .button:hover, .button:focus,
 .button a:focus,
 select:hover, select:focus, select:active {
-	background-color: rgba(255, 255, 255, .95);
+	background-color: #e7e7e7;
 	color: #111;
 }
 input[type="submit"] img, input[type="button"] img, button img, .button img { cursor:pointer; }
@@ -706,10 +706,10 @@ label.infield {
 	float: right;
 }
 #body-login input[type="submit"] {
-	padding: 10px 20px; /* larger log in and installation buttons */
+	padding: 5px; /* larger log in and installation buttons */
 }
 #remember_login {
-	margin: 24px 5px 0 16px !important;
+	margin: 15px 5px 0 16px !important;
 	vertical-align: text-bottom;
 }
 

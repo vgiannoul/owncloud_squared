@@ -63,7 +63,7 @@
 	background-image: url(../img/logo.svg);
   background-repeat: no-repeat;
   width: 200px;
-  height: 120px;
+  height: 150px;
   margin: 0 auto;
 }
 
@@ -182,6 +182,23 @@
 	overflow:hidden;
 	text-overflow:ellipsis;
 }
+
+
+/* arrow look */
+#navigation:after, #expanddiv:after {
+	bottom: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(0, 0, 0, 0);
+	border-bottom-color: #239bbe;
+	border-width: 10px;
+	margin-left: -10px;
+}
+
 	/* icon opacity and hover effect */
 	#navigation a img,
 	#navigation a span {
