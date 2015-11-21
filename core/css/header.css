@@ -85,7 +85,7 @@
 
 #header .menutoggle {
 	display: inline-block;
-	position: absolute;
+	
 	left: 80px;
 	height: 27px;
 	padding-top: 30px;
@@ -286,6 +286,10 @@
 	float: right;
 	color: #bbb;
 	cursor: pointer;
+}
+#header #expand {
+	display: block;
+	padding-top: 20px;
 }
 #expand {
 
